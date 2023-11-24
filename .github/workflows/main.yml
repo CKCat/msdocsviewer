@@ -27,7 +27,7 @@ jobs:
 
       - name: 运行脚本
         run: |
-          python run_me_first_copy.py --overwrite
+          python run_me_first.py --overwrite
       
       - name: 压缩文件夹
         run: zip -r apis_md.zip ./apis_md
